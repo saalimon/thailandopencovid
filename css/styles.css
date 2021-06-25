@@ -10,6 +10,7 @@ header{
     top: 0;
     width: 100%;
     text-align: center;
+    font-size: 1em;
 }
 footer {
     position: fixed;
@@ -36,8 +37,8 @@ footer {
 
  }
 .center img {
-    margin-top: 100px;
-    width: 500px;
+    margin-top: 60vh;
+    width: 70%;
 }
  .column{
     -webkit-flex-direction: column; 
@@ -50,8 +51,14 @@ footer {
 }
 .row a{
     font-family: 'Mali', cursive;
+    font-weight: bold;
     color: gray;
 }
 .flex-item {
     text-align: center;
   }
+#counter {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+}
