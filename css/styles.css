@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+  
+}
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(159, 1, 1, 0);
+    color: gray;
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+      width: 70%;
+ }
+ .center {
+    width: 100%; /*width needs to be setup*/
+    height: 150px; /*height needs to be setup*/
+    display: flex;           
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;    
+
+ }
+.center img {
+    margin-top: 100px;
+    width: 500px;
+}
+ .column{
+    -webkit-flex-direction: column; 
+    flex-direction: column; 
+    float: left;
+  }
+.row {
+    margin: auto; /*These will make the item in center*/
+    text-align: center;
+}
+.row a{
+    font-family: 'Mali', cursive;
+    color: gray;
+}
+.flex-item {
+    text-align: center;
+  }
